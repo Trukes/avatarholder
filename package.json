@@ -1,0 +1,27 @@
+{
+  "name": "avatarholder",
+  "version": "1.0.0",
+  "description": "Library to generate automatic avatar",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trukes/avatarholder.git"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "keywords": [
+    "avatar",
+    "holder",
+    "avatarholder",
+    "automatic"
+  ],
+  "author": "Pedro Carmo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trukes/avatarholder/issues"
+  },
+  "homepage": "https://github.com/Trukes/avatarholder#readme",
+  "dependencies": {}
+}
