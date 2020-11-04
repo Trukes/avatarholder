@@ -22,9 +22,9 @@ exports.createCanvas = (text, params) => {
   let bgColor =  _.get(params, 'bgColor', this.getColor());
 
   let defaults = {
-    width: _.get(params, 'width', 100),
-    height: _.get(params, 'height', 100),
-    font: _.get(params, 'font', this.getFont(_.get(params, 'width', 100))),
+    width: _.get(params, 'size', 100),
+    height: _.get(params, 'size', 100),
+    font: _.get(params, 'font', this.getFont(_.get(params, 'size', 100))),
     bgColor: bgColor,
     color: _.get(params, 'color', this.invertColor(bgColor, 1))
   }
