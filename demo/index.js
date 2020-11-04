@@ -1,18 +1,25 @@
 let avatarholder = require('../index');
 
-console.log('Ola mundo');
+console.log('Creating image');
 
 let response = avatarholder.generateAvatar(
-    'PM',
+    'Pedro Miguel Carmo',
     {
         width: 600,
         height: 600,
-        bgColor: '#eeefff',
+        bgColor: '#eee'
+    }
+)
+
+let responseToFile = avatarholder.generateAvatarToFile(
+    'Pedro Miguel Carmo',
+    './test.gif',
+    {
+        width: 600,
+        height: 600,
+        bgColor: '#eee'
     }
 )
 
 console.log(response);
-
-// var imageDiv = document.querySelector('.image');
-
-// imageDiv.src = response;
+console.log(responseToFile);
