@@ -1,6 +1,6 @@
 {
   "name": "avatarholder",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Library to generate automatic avatar",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Trukes/avatarholder#readme",
   "dependencies": {
-    "canvas": "^2.6.1"
+    "canvas": "^2.6.1",
+    "lodash": "^4.17.20"
   }
 }
