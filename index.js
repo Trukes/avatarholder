@@ -59,8 +59,17 @@ exports.getFont = (canvasWidth) => {
 }
 
 exports.getColor = () => {
-  let randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
-  return randomColor;
+  let hex = '#' + Math.floor(Math.random()*16777215).toString(16);
+  
+  // validate if is a color
+  if (hex.indexOf('#') === 0) {
+    hexTest = hex.slice(1);
+  }
+  if (hexTest.length !== 6 && hexTest.length !== 3) {      
+    return this.getColor();
+  }
+  
+  return hex;
 }
 
 exports.getInitials = (text) => {

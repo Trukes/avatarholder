@@ -24,6 +24,12 @@ Install into your project
 npm install avatarholder --save
 ```
 
+Require avatarholder library
+
+```
+let avatarholder = require('avatarholder');
+```
+
 And start to generating your avatars...
 
 ```
