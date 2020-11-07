@@ -30,15 +30,20 @@ Require avatarholder library
 let avatarholder = require('avatarholder');
 ```
 
+Or import
+```
+import * as avatarholder from 'avatarholder';
+```
+
 And start to generating your avatars...
 
 ```
-let image = avatarholder.generateAvatar('Pedro Miguel Carmo');
+let image = avatarholder.generateAvatar('Hello World');
 ```
 
 or save into files...
 ```
-let pathFile = avatarholder.avatarholder.generateAvatarToFile('Pedro Miguel Carmo', './my-avatar.png');
+let pathFile = avatarholder.avatarholder.generateAvatarToFile('Hello World', './my-avatar.png');
 ```
 
 ### Options
@@ -46,7 +51,7 @@ let pathFile = avatarholder.avatarholder.generateAvatarToFile('Pedro Miguel Carm
 Avatar Holder can receive options, always on last param.
 ```
 let responseToFile = avatarholder.generateAvatarToFile(
-    'Pedro Miguel Carmo',
+    'Hello World',
     './my-avatar.jpg',
     {
         size: 600,
