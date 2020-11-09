@@ -14,7 +14,7 @@ You can also:
 
 ### Demo
 
-Incoming...
+http://www.avatarholder.com
 
 ### Installation
 
