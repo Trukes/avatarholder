@@ -2,6 +2,8 @@
 
 Avatar Holder is a library that generate automatic avatars, with name/username initials.
 
+![Image of Avatar Holder](http://images.avatarholder.com/Hello World/100/3fb576)
+
 # New Features!
 
   - Save image to file
