@@ -47,7 +47,7 @@ let image = avatarholder.generateAvatar('Hello World');
 
 or save into files...
 ```
-let pathFile = avatarholder.avatarholder.generateAvatarToFile('Hello World', './my-avatar.png');
+let pathFile = avatarholder.generateAvatarToFile('Hello World', './my-avatar.png');
 ```
 
 ### Options
